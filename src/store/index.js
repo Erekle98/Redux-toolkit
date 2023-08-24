@@ -6,8 +6,8 @@ import { songsReducer, addSong, removeSong } from "./slices/songsSlice";
 const store = configureStore({
   reducer: {
     songs: songsReducer,
-    movies: moviesReducer
-  }
+    movies: moviesReducer,
+  },
 });
 
 export { store, reset, addSong, removeSong, addMovie, removeMovie };
